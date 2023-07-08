@@ -8,7 +8,7 @@ Quick Sort is a highly efficient sorting algorithm that follows the divide-and-c
 The average and best-case time complexity of Quick Sort is O(n log n), where n is the number of elements to be sorted. Quick Sort achieves this complexity by dividing the list into smaller sub-arrays and sorting them independently. However, in the worst-case scenario, when the pivot selection is poor, Quick Sort can degrade to a time complexity of O(n^2), which is the same as Bubble Sort. To mitigate this, various techniques, such as selecting a random or median-of-three pivot, can be employed.
 
 In terms of efficiency, Quick Sort outperforms Bubble Sort in most cases. Bubble Sort's quadratic time complexity makes it inefficient for large lists, whereas Quick Sort's average and best-case time complexity of O(n log n) provides better performance. However, Quick Sort's worst-case time complexity of O(n^2) can be a disadvantage in certain situations. Thus, the choice of algorithm depends on the characteristics of the input data and the desired time complexity. 
- 
+
 2. **Identify and explain the workings of TWO search algorithms and discuss and compare their performance/efficiency (i.e. Big O)**  
 Two commonly used search algorithms are Linear Search and Binary Search.  
 - **Linear Search**  
@@ -19,6 +19,7 @@ Binary Search is a more efficient search algorithm that relies on the properties
 Binary Search has a time complexity of O(log n), where n is the number of elements in the sorted list. This logarithmic time complexity is achieved by eliminating half of the remaining search space in each step. Binary Search performs significantly better than Linear Search for large lists. However, Binary Search requires the list to be sorted beforehand, which adds an additional preprocessing step.
 
 In terms of efficiency, Binary Search outperforms Linear Search in most cases. Linear Search's linear time complexity of O(n) makes it less efficient, especially for large lists. On the other hand, Binary Search's logarithmic time complexity of O(log n) provides faster search times, especially for sorted lists. However, Binary Search requires the additional step of sorting the list, which can be costly. Thus, the choice of algorithm depends on the characteristics of the list and the desired time complexity.  
+
 **References:**  
 1. Bubble Sort - Wikipedia. (n.d.). Retrieved from https://en.wikipedia.org/wiki/Bubble_sort  
 2. Quick Sort - Wikipedia. (n.d.). Retrieved from https://en.wikipedia.org/wiki/Quicksort  
